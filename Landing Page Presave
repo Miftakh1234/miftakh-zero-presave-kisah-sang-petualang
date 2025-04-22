@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kisah Sang Petualang - Pre-Save</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom, #e0f2f1, #ffffff);
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    header {
+      width: 100%;
+      background-color: #fff;
+      padding: 1rem;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      display: flex;
+      justify-content: center;
+    }
+    header img {
+      height: 60px;
+    }
+    .hero {
+      background-image: url('20250228_132520.png');
+      background-size: cover;
+      background-position: center;
+      width: 100%;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+      flex-direction: column;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      margin: 0.5rem 0;
+    }
+    .content {
+      max-width: 600px;
+      margin: 2rem;
+    }
+    .cta-button {
+      background-color: #2e7d32;
+      color: white;
+      padding: 1rem 2rem;
+      border: none;
+      border-radius: 12px;
+      font-size: 1.2rem;
+      cursor: pointer;
+      margin-top: 1rem;
+      text-decoration: none;
+      display: inline-block;
+    }
+    .cta-button:hover {
+      background-color: #1b5e20;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="Mz logo.png" alt="Logo Miftakh Zero">
+  </header>
+
+  <section class="hero">
+    <h1>Kisah Sang Petualang</h1>
+    <p>Perjalanan anak muda untuk mencari jati diri</p>
+  </section>
+
+  <section class="content">
+    <p>Album baru dari <strong>Miftakh Zero</strong> akan segera hadir!</p>
+    <p>Pre-save sekarang dan jadilah yang pertama mendengarkan di berbagai platform musik.</p>
+    <a href="#" class="cta-button">Pre-save Sekarang</a>
+  </section>
+</body>
+</html>
